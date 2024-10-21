@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Scrypt</title>
+    
+		<link href="./_app/immutable/assets/2.CZxmka21.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.C40laO9-.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.AcZC4WzA.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BvLojk_z.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.arY9QtW4.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.OsuhnpW-.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.BGHrnlDG.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.BBIfeTHG.js">
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">  <h1 data-svelte-h="svelte-13b0v29">My Scrypt</h1> <p data-svelte-h="svelte-ua22xc">This Is My Scrypt To Make It Simple For Me</p> <div class="box svelte-n6804a"><input placeholder="Secret" class="svelte-n6804a" value=""> <input placeholder="Salt" class="svelte-n6804a" value=""> <button class="svelte-n6804a" data-svelte-h="svelte-1ihpt2p">Generate</button></div>  
+			
+			<script>
+				{
+					__sveltekit_1sjh6v2 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/sveltekit-gh-pages"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.C40laO9-.js"),
+						import("./_app/immutable/entry/app.arY9QtW4.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+  </body>
+</html>
